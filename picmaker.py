@@ -1,6 +1,6 @@
 def makepic():
     rgb = "{a} {b} {c} "
-    pic = open('image1.ppm', 'w')
+    pic = open('image.ppm', 'w')
     pic.write('P3 500 500 255\n')
     for i in range(500):
         for j in range(500):
